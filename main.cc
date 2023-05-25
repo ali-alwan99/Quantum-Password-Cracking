@@ -55,7 +55,7 @@ bool CheckWord(string& search)
     int offset; 
     string line;
     ifstream Myfile;
-    Myfile.open ("rockyou.txt");
+    Myfile.open ("rockyou.txt"); // dictionary attack
 
     if (Myfile.is_open())
     {
